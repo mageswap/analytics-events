@@ -1,18 +1,18 @@
 # Uniswap Labs Analytics Events
-[![npm](https://img.shields.io/npm/v/@uniswap/analytics-events)](https://www.npmjs.com/package/@uniswap/analytics-events)
+[![npm](https://img.shields.io/npm/v/@mageswap/analytics-events)](https://www.npmjs.com/package/@mageswap/analytics-events)
 
-The `@uniswap/analytics-events` package is a [npm package](https://www.npmjs.com/package/@uniswap/analytics-events) of constants used as the inputs into our [@uniswap/analytics](https://www.npmjs.com/package/@uniswap/analytics) package ([Github Link](https://github.com/Uniswap/analytics)). It is used in repos such as [interface](https://github.com/Uniswap/interface) and [docs](https://github.com/Uniswap/docs).
+The `@mageswap/analytics-events` package is a [npm package](https://www.npmjs.com/package/@mageswap/analytics-events) of constants used as the inputs into our [@mageswap/analytics](https://www.npmjs.com/package/@mageswap/analytics) package ([Github Link](https://github.com/Uniswap/analytics)). It is used in repos such as [interface](https://github.com/Uniswap/interface) and [docs](https://github.com/Uniswap/docs).
 
 ## Installation
 
 Install via `npm` or `yarn`.
 
 ```bash
-yarn add @uniswap/analytics-events
+yarn add @mageswap/analytics-events
 ```
 
 ```bash
-npm i --save @uniswap/analytics-events
+npm i --save @mageswap/analytics-events
 ```
 
 ## Adding Events
