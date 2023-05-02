@@ -1,8 +1,7 @@
 {
   "name": "@mageswap/analytics-events",
-  "description": "Uniswap analytics events",
+  "description": "mageswap analytics events",
   "license": "MIT",
-  "version":"3.0.1",
   "publishConfig": {
     "access": "public"
   },
@@ -31,7 +30,7 @@
     "prepack": "yarn run build",
     "lint": "yarn eslint .",
     "release": "semantic-release",
-    "tarball": "npm pkg set version=0.0.1 && npm pack && npm pkg delete version && mv uniswap-analytics-events-0.0.1.tgz uniswap-analytics-events-dev.tgz",
+    "tarball": "npm pkg set version=0.0.1 && npm pack && npm pkg delete version && mv mageswap-analytics-events-0.0.1.tgz mageswap-analytics-events-dev.tgz",
     "tarball:install": "yarn run tarball && ./scripts/install-in-repo.sh"
   },
   "devDependencies": {

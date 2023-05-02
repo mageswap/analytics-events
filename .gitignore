@@ -7,8 +7,6 @@ package-lock.json
 # builds
 /cache
 /cosmos-export
-/dts
-*.tgz
 package*
 
 # IDE metadata
