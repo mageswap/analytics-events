@@ -91,8 +91,8 @@ export enum InterfaceElementName {
   TAX_SERVICE_TOKENTAX_BUTTON = 'tax-service-tokentax-link-button',
   TOKEN_SELECTOR_ROW = 'token-selector-row',
   TWITTER_LINK = 'twitter-link',
-  UNISWAP_WALLET_BANNER_DOWNLOAD_BUTTON = 'uniswap-wallet-banner-download-button',
-  UNISWAP_WALLET_CONNECTOR = 'uniswap-wallet-connector',
-  UNISWAP_WALLET_MODAL_DOWNLOAD_BUTTON = 'uniswap-wallet-modal-download-button',
+  MAGESWAP_WALLET_BANNER_DOWNLOAD_BUTTON = 'mageswap-wallet-banner-download-button',
+  MAGESWAP_WALLET_CONNECTOR = 'mageswap-wallet-connector',
+  MAGESWAP_WALLET_MODAL_DOWNLOAD_BUTTON = 'mageswap-wallet-modal-download-button',
   WALLET_TYPE_OPTION = 'wallet-type-option',
 }

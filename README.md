@@ -1,7 +1,7 @@
-# Uniswap Labs Analytics Events
+# Mageswap Labs Analytics Events
 [![npm](https://img.shields.io/npm/v/@mageswap/analytics-events)](https://www.npmjs.com/package/@mageswap/analytics-events)
 
-The `@mageswap/analytics-events` package is a [npm package](https://www.npmjs.com/package/@mageswap/analytics-events) of constants used as the inputs into our [@mageswap/analytics](https://www.npmjs.com/package/@mageswap/analytics) package ([Github Link](https://github.com/Uniswap/analytics)). It is used in repos such as [interface](https://github.com/Uniswap/interface) and [docs](https://github.com/Uniswap/docs).
+The `@mageswap/analytics-events` package is a [npm package](https://www.npmjs.com/package/@mageswap/analytics-events) of constants used as the inputs into our [@mageswap/analytics](https://www.npmjs.com/package/@mageswap/analytics) package ([Github Link](https://github.com/Mageswap/analytics)). It is used in repos such as [interface](https://github.com/Mageswap/interface) and [docs](https://github.com/Mageswap/docs).
 
 ## Installation
 
@@ -50,7 +50,7 @@ export enum DocsSentiment {
 
 ## Designing Events: The Trace Framework
 
-The [analytics](https://github.com/Uniswap/analytics) library implements the [Trace framework](https://slack.engineering/creating-a-react-analytics-logging-library/) to enable easy default properties and basic hierarchy of context. The following context properties are available, in order of specificity. This can be used directly for ease or logged manually for custom trigger events.
+The [analytics](https://github.com/Mageswap/analytics) library implements the [Trace framework](https://slack.engineering/creating-a-react-analytics-logging-library/) to enable easy default properties and basic hierarchy of context. The following context properties are available, in order of specificity. This can be used directly for ease or logged manually for custom trigger events.
 
 | Context     | Description                                                                                                                           |
 | :---------  | :------------------------------------------------------------------------------------------------------------------------------------ |
@@ -119,7 +119,7 @@ yarn tarball:install
 This flow also clears your `tmp` cache only for yarn, ensuring yarn install times are not degraded after testing your analytics changes.
 
 When you're done testing, undo the changes so you don't commit the temporary file to remote:
-`git restore package.json yarn.lock && rm uniswap-analytics-events-dev.tgz && yarn`.
+`git restore package.json yarn.lock && rm mageswap-analytics-events-dev.tgz && yarn`.
 
 ### Manually Installing
 
@@ -129,17 +129,17 @@ To test generate a tarball of the new test package and install it directly, usin
 yarn tarball
 ```
 
-This will generate a `uniswap-analytics-events-dev.tgz` including your changes and a `0.0.1` package version number.
+This will generate a `mageswap-analytics-events-dev.tgz` including your changes and a `0.0.1` package version number.
 
 To install it in your implementing repo, copy/move the tarball to the top level of your implementing repo and then run the following commands:
 
 ```bash
 # yarn
 yarn cache clean
-yarn add file:uniswap-analytics-dev.tgz
+yarn add file:mageswap-analytics-dev.tgz
 
 # npm
-npm install uniswap-analytics-dev.tgz
+npm install mageswap-analytics-dev.tgz
 ```
 
 ## Releasing Events
@@ -153,4 +153,4 @@ Once a release is published, integrating your new events is as simple as updatin
 
 ## Legal notice
 
-Uniswap Labs encourages integrators to evaluate their own regulatory obligations when integrating this package into their products, including, but not limited to, those related to economic or trade sanctions compliance.
+Mageswap Labs encourages integrators to evaluate their own regulatory obligations when integrating this package into their products, including, but not limited to, those related to economic or trade sanctions compliance.

@@ -40,7 +40,7 @@ export declare enum DocsHomepageElementName {
     V3_PERIPHERY = "V3 Periphery",
     V3_SDK = "V3 SDK",
     V3_WIDGETS = "V3 Widgets",
-    WHAT_IS_UNISWAP = "What is Uniswap",
+    WHAT_IS_MAGESWAP = "What is Mageswap",
     WHITEPAPER = "Whitepaper",
     WIDGETS = "Widgets"
 }
